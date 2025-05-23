@@ -1,0 +1,48 @@
+{
+  "type": "module",
+  "name": "cdnpine",
+  "version": "1.0.0",
+  "description": "A simple Express.js server to store images and videos for documentation use.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openpineaplehub/cdnpine.git"
+  },
+  "keywords": [
+    "express",
+    "cdn",
+    "file-upload",
+    "documentation",
+    "github-integration",
+    "backend"
+  ],
+  "author": "openpineaplehub",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/openpineaplehub/cdnpine/issues"
+  },
+  "homepage": "https://github.com/openpineaplehub/cdnpine#readme",
+  "dependencies": {
+    "@octokit/rest": "^21.1.1",
+    "axios": "^1.9.0",
+    "cli-table3": "^0.6.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mime-types": "^3.0.1",
+    "node-cron": "^4.0.6",
+    "node-fetch": "^2.7.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.5"
+  }
+}

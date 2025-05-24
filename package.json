@@ -33,11 +33,14 @@
     "@octokit/rest": "^21.1.1",
     "axios": "^1.9.0",
     "cli-table3": "^0.6.5",
+    "date-fns": "^4.1.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "fs": "^0.0.1-security",
     "mime-types": "^3.0.1",
     "node-cron": "^4.0.6",
     "node-fetch": "^2.7.0",
+    "parse": "^6.1.1",
     "uuid": "^11.1.0"
   },
   "devDependencies": {
